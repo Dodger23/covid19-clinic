@@ -12,5 +12,5 @@ def index():
 app.config["TEMPLATES_AUTO_RELOAD"] = True
 
 
-if __name__ == '__main__':
+if __name__ == '__init__':
     app.run()
