@@ -1,10 +1,5 @@
 from flask import Flask, request, redirect, render_template
-import numpy as np
-from PIL import Image
-import base64
-import json
-from io import BytesIO
-import requests
+
 
 app = Flask(__name__)
 
