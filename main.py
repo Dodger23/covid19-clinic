@@ -17,8 +17,8 @@ def about():
         return render_template('about_us.html')
 
 
-@app.route("/predict")
-def predict():
+#@app.route("/predict")
+#def predict():
 
         
 app.config["TEMPLATES_AUTO_RELOAD"] = True
