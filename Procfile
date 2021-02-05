@@ -1,1 +1,1 @@
-web: gunicorn main.py --callable app
+web: gunicorn main.py
