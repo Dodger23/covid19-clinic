@@ -52,7 +52,7 @@
 
         .card-text {
             font-weight: 900;
-            
+
         }
 
         .footer {
@@ -72,11 +72,6 @@
 
 <body>
 
-    <nav class="nav nav-pills nav-justified">
-        <a class="nav-item nav-link" href="/">Home</a>
-        <a class="nav-item nav-link active" href="/model">Model</a>
-        <a class="nav-item nav-link" href="/about_us">About Us</a>
-    </nav>
 
 
     <div class="container">
@@ -95,26 +90,22 @@
 
 
     </div>
-    <div class="cont col-lg-10 col-sm-12 col-11 main-section" id="cont">
+    <div class="cont  main-section" style="height: 100px;width: 500px;display: flex;justify-content: center;" id="cont">
+        <div style="display: flex;justify-content: center;flex-direction: column;">
+            <p style="font-size: 35px;">Diagnosis: </p>
+
+            <p>{{message}}</p>
+        </div>
 
     </div>
 
     <footer class="footer">
-        <p>@ Sefen - Kerolos - George - Mohammed - Aya - Tasneem - Nardeen  </p>
+        <p>@ Sefen - Kerolos - George - Mohammed - Aya - Tasneem - Nardeen </p>
     </footer>
 
     <script>
         function fill(key, value) {
 
-            /*
-            <div class="card">
-                <img class="card-img-top" src="static/upload/images/test.png" alt="Card image cap">
-                <div class="card-body">
-                    <p class="card-text">Some quick example text to build on the card title and make up the bulk of the
-                            card's content.</p>
-                </div>
-            </div>
-            */
 
             prediction = value
 
@@ -146,7 +137,7 @@
             c.appendChild(c2)
             par.appendChild(c)
         }
-        
+
     </script>
 
 
