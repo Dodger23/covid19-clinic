@@ -11,7 +11,7 @@ def mod():
 
 url = 'http://3f6dc8ccaebe.ngrok.io/predict'
 @app.route('/predict', methods=['GET', 'POST'])
-@app.route("/model")
+@app.route("/")
 def predict():
 #     files = request.files.getlist('uploadFile')
     if request.method == 'POST':
