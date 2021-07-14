@@ -9,7 +9,7 @@ def mod():
         return render_template('model.html')
 
 
-url = 'http://c036e088b8bb.ngrok.io/predict'
+url = 'http://63eeed5cfe5b.ngrok.io//predict'
 @app.route('/predict', methods=['GET', 'POST'])
 def predict():
 #     files = request.files.getlist('uploadFile')
